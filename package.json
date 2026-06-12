@@ -75,15 +75,5 @@
     "*.{js,jsx}": [
       "eslint --fix"
     ]
-  },
-
-  "jest": {
-    "preset": "jest-expo",
-    "collectCoverage": true,
-    "coverageDirectory": "coverage",
-    "coverageReporters": ["lcov", "text"],
-    "transformIgnorePatterns": [
-      "node_modules/(?!(@react-native|react-native|expo|expo-modules-core)/)"
-    ]
   }
 }
